@@ -67,7 +67,7 @@ img {
 
 .container {
   width: 1200px;
-  padding: 94px;
+  /* padding: 94px; */
   /* padding-right: 94px; */
   margin: 0 auto;
   /* outline: 1px solid red; */
@@ -77,14 +77,14 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-nav {
@@ -163,12 +163,8 @@ img {
 
 .hero {
   background-color: #2f303a;
-}
-
-.hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
-  /* display: flex; */
 }
 
 .hero-title {
@@ -201,13 +197,18 @@ img {
   margin: 0 auto;
 }
 
-.benefits .container {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .benefits-list {
   display: flex;
+  justify-content: space-between;
+}
+
+.benefits-item {
+  width: 270px;
 }
 
 .benefits-item:not(:last-child) {
@@ -284,7 +285,8 @@ img {
 }
 
 .team-name {
-  margin: 30px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-item-title {
@@ -294,7 +296,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--sub-title-color);
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .team-item-text {
@@ -308,12 +311,13 @@ img {
 
 .footer {
   background-color: #2f303a;
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+/* .footer .container {
+  
+} */
 
 .footer-logo {
   text-decoration: none;
@@ -346,19 +350,24 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  display: block;
 }
 
-.address-link:first-of-type {
-  margin-bottom: 6px;
+.address-link + .address-link {
+  margin-top: 6px;
 }
 
 /* portfolio  */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio-filter-list {
   display: flex;
   justify-content: center;
-  /* margin: 0 auto; */
-  padding-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .portfolio-filter-item:not(:last-child) {
