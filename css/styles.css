@@ -67,6 +67,8 @@ img {
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   /* padding: 94px; */
   /* padding-right: 94px; */
   margin: 0 auto;
@@ -230,7 +232,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.produce .container {
+.produce {
   padding-bottom: 94px;
 }
 
@@ -254,11 +256,13 @@ img {
 
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .team-title {
